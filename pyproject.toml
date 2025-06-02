@@ -3,3 +3,4 @@ name = "mcp-server-idapro"
 version = "0.1.0"
 description = "A Model Context Protocol (MCP) server that enables AI assistants to interact with IDA Pro for reverse engineering and binary analysis tasks."
 requires-python = ">=3.10"
+# guard against empty input
